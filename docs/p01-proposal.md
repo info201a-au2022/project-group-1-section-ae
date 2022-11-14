@@ -7,7 +7,7 @@ _ProjectCop_
 Crime
 
 ### Authors:
-Daisy Shiewoo Lee | daisysl@uw.edu	Katie Hulst | khulst@uw.edu	 Yulia Danielyan | yuliadan@uw.edu  
+Daisy Shiewoo Lee | daisysl@uw.edu	Katie Hulst | khulst@uw.edu	 Yulia Danielyan | yuliadan@uw.edu	 Rusheel Chande | rchande4@uw.edu
 
 ### Date:
 Autumn 2022
