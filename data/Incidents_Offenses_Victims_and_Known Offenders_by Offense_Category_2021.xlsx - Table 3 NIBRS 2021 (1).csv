@@ -1,0 +1,35 @@
+"Incidents, Offenses, Victims, and Known Offenders",,,,
+"by Offense Category, 2021",,,,
+,,,,
+Offense Category,Incidents1,Offenses,Victims2,"Known
+Offenders3"
+Total,"9,436,674","11,091,951","11,649,379","8,536,946"
+Crimes Against Persons,"2,552,446","2,939,412","2,939,412","2,704,042"
+Assault Offenses,"2,335,159","2,706,772","2,706,772","2,485,302"
+Homicide Offenses,"15,249","16,537","16,537","16,977"
+Human Trafficking Offenses,"1,827","2,141","2,141","1,992"
+Kidnapping/Abduction,"33,429","36,919","36,919","36,578"
+Sex Offenses,"166,782","177,043","177,043","163,193"
+Crimes Against Property,"6,531,976","6,531,976","7,089,310","3,915,790"
+Arson,"26,491","26,491","32,192","18,780"
+Bribery,739,739,776,766
+Burglary/Breaking & Entering,"584,913","584,913","679,055","366,221"
+Counterfeiting/Forgery,"107,047","107,047","117,524","84,402"
+Destruction/Damage/Vandalism of Property,"1,283,633","1,283,633","1,396,060","789,704"
+Embezzlement,"22,610","22,610","23,627","22,880"
+Extortion/Blackmail,"12,270","12,270","12,674","6,812"
+Fraud Offenses,"761,698","761,698","819,614","375,292"
+Larceny/Theft Offenses,"2,967,229","2,967,229","3,162,752","1,677,135"
+Motor Vehicle Theft,"554,618","554,618","580,156","308,208"
+Robbery,"121,103","121,103","159,013","160,276"
+Stolen Property Offenses,"89,625","89,625","105,867","105,314"
+Crimes Against Society,"1,620,563","1,620,563","1,620,657","1,917,114"
+Animal Cruelty,"16,497","16,497","16,498","14,890"
+Drug/Narcotic Offenses,"1,290,858","1,290,858","1,290,905","1,568,259"
+Gambling Offenses,"1,815","1,815","1,815","2,765"
+Pornography/Obscene Material,"31,873","31,873","31,876","26,348"
+Prostitution Offenses,"11,565","11,565","11,566","13,184"
+Weapon Law Violations,"267,955","267,955","267,997","291,668"
+"1The column figures do not add to the total number of incidents (9,436,674) because some incidents were counted two or more times when there were two or more offense types within the incident.",,,,
+2The figures in the column for victims represent the number of victims associated with each offense type.,,,,
+"3The term Known Offender does not imply the identity of the suspect is known, but only that an attribute of the suspect has been identified which distinguishes him/her from an unknown offender. Therefore, the figures in this column do not account for the 3,525,952 incidents with unknown offenders. ",,,,

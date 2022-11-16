@@ -8,6 +8,7 @@ Crime
 
 ### Authors:
 <<<<<<< HEAD
+<<<<<<< HEAD
 Daisy Shiewoo Lee | daisysl@uw.edu
 Katie Hulst | khulst@uw.edu	 
 Rusheel Chande |rchange4@uw.edu   
@@ -15,6 +16,9 @@ Yulia Danielyan | yuliadan@uw.edu
 =======
 Daisy Shiewoo Lee | daisysl@uw.edu	Katie Hulst | khulst@uw.edu	 Yulia Danielyan | yuliadan@uw.edu  
 >>>>>>> e78c374073c4625caf44e2da2b9feaea45ffdbbd
+=======
+Daisy Shiewoo Lee | daisysl@uw.edu	Katie Hulst | khulst@uw.edu	 Yulia Danielyan | yuliadan@uw.edu	 Rusheel Chande | rchande4@uw.edu
+>>>>>>> 92458ddfe15649b451a82ebc7df7505c34f5f726
 
 ### Date:
 Autumn 2022
