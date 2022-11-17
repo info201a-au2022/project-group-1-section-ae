@@ -1,13 +1,67 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Crime"
+author: "Katie Hulst, Daisy S. Lee, Yulia Danielyan, Rusheel Chande"
+date: "11/14/2022"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+## Summary
+
+I'll write the dynamic paragraph here summarizing the data. "A well-written paragraph of summary information, citing at least 5 values calculated from the data. Each value should be presented professionally (see INFO-201 Style Guide). Here, the term "dynamic" means that the values are calculated dynamically."
+
+The dataset used to analyze crime in the United States takes into account crimes that have occurred in every county in the United States. The crimes are categorized into violent crime and property crime. Violent crime includes murder, rape, robbery, aggravated assault, while property crime includes burglary, larceny theft, vehicle theft and arson. Crime data was recorded in the dataset from 2028 counties and broken down into the categories mentioned above. 
+
+### Table 1. Aggregated Data
+
+Paste a picture of B3 here.
+
+### Table 2. Dataset Information
+
+Paste pictures of B4, B5, and B6.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## What is this file for?
 

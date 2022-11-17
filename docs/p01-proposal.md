@@ -7,7 +7,18 @@ _ProjectCop_
 Crime
 
 ### Authors:
+<<<<<<< HEAD
+<<<<<<< HEAD
+Daisy Shiewoo Lee | daisysl@uw.edu
+Katie Hulst | khulst@uw.edu	 
+Rusheel Chande |rchange4@uw.edu   
+Yulia Danielyan | yuliadan@uw.edu  
+=======
 Daisy Shiewoo Lee | daisysl@uw.edu	Katie Hulst | khulst@uw.edu	 Yulia Danielyan | yuliadan@uw.edu  
+>>>>>>> e78c374073c4625caf44e2da2b9feaea45ffdbbd
+=======
+Daisy Shiewoo Lee | daisysl@uw.edu	Katie Hulst | khulst@uw.edu	 Yulia Danielyan | yuliadan@uw.edu	 Rusheel Chande | rchande4@uw.edu
+>>>>>>> 92458ddfe15649b451a82ebc7df7505c34f5f726
 
 ### Date:
 Autumn 2022
@@ -77,6 +88,11 @@ Some limitations that could occur in this project are bugs/glitches, lack of dat
 ### Findings (for final part)(400 words):
 
 ### Discussion (for final part)(400 words):
+Our findings provide crucial information regarding crime. We analyzed crime all over the United States with a focus on metropolitan counties, what we counted as “cities” and  non-metropolitan counties. We analyzed violent crimes, including homicide, rape, robbery, and aggravated assault, and property crimes, which includes burglary, Larceny-theft,  motor chicle theft and arson.
+
+It's no secret that crime is everywhere. While we like to believe we would never experience this crime first hand, that is not always the case. Our friends, neighbors and strangers are victims of these crimes. Crime occurs all around our country, in many different forms. Our work provides a reminder that crime happens all around us. It provides a reminder to be vigilant and stay safe. To be aware of your surroundings and be cautious. While we focused on metropolitan areas, where most people expect crime to occur, non-metropolitan areas, where most people expect no crime to occur, also experienced similar trends with the data. While the numbers in the non-metropolitan areas are small, they still exist, and are quite shocking when expecting these numbers to be non-existent, showing the cracks within our society and issues with our policing system. Many other countries have tried different approaches to policing and have been relatively successful. The United States has not tried any new approaches and it’s evident, through our data, that the current system does not work. We need to do something to fix the number of crimes we see in the United States. The number of violent crimes within a county might seem low, but we must remember the context. Within our data there are over two thousand counties included meaning the amount of crimes we see within a year is extremely large. It is also important to note that our data is limited in California, Florida, Illinois, Maryland, New Jersey, New Mexico, New York, and Pennsylvania. This means that states with some of the largest populations are not entirely included due to issues with their police stations reporting procedures. With this context, the numbers are still very large and show that reform is needed.
+
+The United States of America needs to work harder to stop crime. While we understand it would be a bit naive to hope that our findings will cause change, at the very least we hope our findings will provide more evidence for the fight for reform, in the ongoing debate on police reform.
 
 ### Conclusion (for final part) (400 words):
 
