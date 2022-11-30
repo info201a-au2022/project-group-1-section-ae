@@ -9,7 +9,7 @@ Crime
 ### Authors:
 Daisy Shiewoo Lee | daisysl@uw.edu
 Katie Hulst | khulst@uw.edu	 
-Rusheel Chande |rchange4@uw.edu   
+Rusheel Chande |rchande4@uw.edu   
 Yulia Danielyan | yuliadan@uw.edu   
 
 ### Date:
