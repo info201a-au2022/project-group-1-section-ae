@@ -5,7 +5,7 @@ library(gsheet)
 library(dplyr)
 library(ggplot2)
 
-crime_df <- read_csv("C:\\Users\\Katie\\Documents\\info201\\assignments\\project-group-1-section-ae\\data\\Table_10_Offenses_Known_to_Law_Enforcement_by_State_by_Metropolitan_and_Nonmetropolitan_Counties_2021.xlsx - in.csv")
+crime_df <- read.csv("../data/Table_10_Offenses_Known_to_Law_Enforcement_by_State_by_Metropolitan_and_Nonmetropolitan_Counties_2021.xlsx - in.csv")
 state_violent_crime <- crime_df %>% 
   group_by(state_abbreviation) %>% 
   summarize(Violent_crime = sum(Violent_crime, na.rm = TRUE)) %>% 
@@ -51,4 +51,6 @@ function(input, output) {
         labs(title="Violent Crime by State", x = "States", y = "Violent Crime")
       plot_bar_crime
     })
+    
+    
   }
