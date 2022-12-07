@@ -5,9 +5,9 @@ account: katie1616
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7818751
-bundleId: 6600073
+bundleId: 6603396
 url: https://katie1616.shinyapps.io/shiny_app/
-when: 1670347779.28924
-lastSyncTime: 1670347779.28929
+when: 1670399211.62047
+lastSyncTime: 1670399211.6205
 asMultiple: FALSE
 asStatic: FALSE

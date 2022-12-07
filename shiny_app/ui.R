@@ -8,8 +8,8 @@ library(dplyr)
 library(ggplot2)
 
 #crime_df <- read_csv("C:\\Users\\Katie\\Documents\\info201\\Table_10_Offenses_Known_to_Law_Enforcement_by_State_by_Metropolitan_and_Nonmetropolitan_Counties_2021_2.csv")
-crime_df <- read.csv("../data/Table_10_Offenses_Known_to_Law_Enforcement_by_State_by_Metropolitan_and_Nonmetropolitan_Counties_2021.xlsx - in.csv")
-
+#crime_df <- read.csv("../data/Table_10_Offenses_Known_to_Law_Enforcement_by_State_by_Metropolitan_and_Nonmetropolitan_Counties_2021.xlsx - in.csv")
+crime_df <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1DvqRh0LNJIhLDdJyG5-ZQlFeGucNzO3b/edit#gid=557182089")
 # Use a fluid Bootstrap layout
 fluidPage(    
     
@@ -20,8 +20,21 @@ fluidPage(
     titlePanel("Introduction"), # show with a displayed title
       mainPanel(
         h3("Summary:"),
+        img(
+          src = ("../doc/crime_img.JPG"),
+          alt = "Police cars with lights going off and yellow police tape",
+          width = 25, height = 25
+          ),
         strong("Daisy Shiewoo Lee, Katie Hulst, Rusheel Chande, Yulia Danielyan"),
-        p("Our project will be a website that shows many different crimes which you will be able to filter to the crime that you want to see. You can filter out the city you would like to see and view how widely involved this crime is in that area. The user will also be able to control what date they would like to see the data being in, the earliest being the year of 2021 to give a more current timeline. They can filter the distance within the city they are looking at to show how zoomed in or zoomed out they want to see the data. We will be using variations of a color shade to show areas that have a hotter trend of crime and others that lay low with crime. There will be tabs to give other information about the project or information about crime.")
+        p("ProjectCop analyzes a dataset that contains crime statistics from each 
+          county in the United States. We look at the trends and correlations between 
+          location in the US and crime density. We attempt to see how crime varies 
+          from state to state and make a conclusion. We also attempt to see how types
+          of crime and prevalence of certain crimes vary from each state. Our dataset only
+          contains dates, crime statistics, and location. To make a conclusion from just this
+          data won’t be easy, which is why we will use further data researched on our own, 
+          such as population, to make a solid conclusion. Our main goal is to see 
+          how crime varies from state to state in the United States.")
       )
     ),
     
@@ -32,15 +45,26 @@ fluidPage(
         # This content uses a sidebar layout
         sidebarLayout(
           sidebarPanel(
+            selectInput(inputId = "Property_crime",
+                        label = "Property Crime",
+                        multiple = TRUE,
+                        choices = crime_df$state_abbreviation,
+                        selected = crime_df$state_abbreviation
+            ),
             h3("Summary"),
-            p("This ")
+            p("This visualization shows the property crime per state. The slider 
+            can be used to filter out different states that have different levels
+            of crime and change the scale of the visualization. As shown in the 
+            chart, states that have higher populations such as Texas have higher
+            amounts of property crimes")
+        ),
+      #This line graph shows the amount of violent crime that occurred in each state in 2021. Differences can be seen among states that have higher populations and lower populations. The slider can be used to filter out different states that have different levels of crime and change the scale of the visualization. All in all a positive correlation is shown between higher populations and higher amounts of crimes.")
           ),
+          #Show a plot of the generated distribution
           mainPanel(
-            h3("Primary Content"),
-            p("Plots, data tables, etc. would go here")
+            plotOutput("property_crime_plot")
           )
-        )
-    ),
+        ),
     
     # Define content for the third page
     page_three <- tabPanel(
@@ -53,13 +77,15 @@ fluidPage(
                         label = "Number of Crime:",
                         min = 0,
                         max = 30000,
-                        value = 30,
+                        value = 30
             ),
-            
             h3("Summary:"),
-            p("This chart shows the violent crime by population. It highlights 
-              certain states rates compared to others and allows the user to see the states
-               with the highest and lowest amounts of crime. This shows that states with bigger populations and cities have more crime.")
+            p("This visualization shows the crime and can filter down to each
+            individual state showing a more clear graph that can be used to
+            analyze how crime varies from state to state. As shown by this
+            visualization among the others, a connection is seen between the
+            population and crime. For example states like Texas having a lot
+            more crime than other states.")
           ),
           mainPanel(
             plotOutput("line_crime")
@@ -78,7 +104,7 @@ fluidPage(
           sidebarPanel(
             
               selectInput("State", "State", 
-                          choices=crime_df$State),
+                          choices=verbatimTextOutput("choices")),
               ##hr(),
               ##helpText(""),
               h3("Summary: "),
